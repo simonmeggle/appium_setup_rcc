@@ -1,0 +1,46 @@
+output/
+results/
+venv/
+temp/
+.rpa/
+.idea/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.virtual_documents/
+*/.virtual_documents/*
+.vscode
+.DS_Store
+*.pyc
+*.zip
+*/work-items-out/*
+testrun/*
+.~lock*
+*.pkl
+challenge.xlsx
+__pycache__/
+# Caches and logs
+.cache/
+log.html
+output.xml
+report.html
+*.log
+
+# User-specific files
+*.user
+*.swp
+*.swo
+
+# Operating System generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+playwright-log.txt
+.vs
+
+.downloads/
+lib/
+node_modules/

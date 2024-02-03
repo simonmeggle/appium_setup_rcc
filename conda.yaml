@@ -1,0 +1,18 @@
+channels:
+  - conda-forge
+
+dependencies:
+  - gstreamer
+  - ffmpeg
+  - python=3.10.12                    
+  - pip=23.2.1                        
+  - nodejs=16.20.2  
+  - pip:
+    - robotframework<7 
+    - robotframework-appiumlibrary  
+    - robotframework-robocop    
+    - robotframework-tidy    
+
+
+# rccPostInstall:
+#   - ./install.sh
